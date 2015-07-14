@@ -46,8 +46,6 @@ function _scale(elm, max_width, max_height, initial_width, initial_height) {
         if (new_width > 1) {
             
             //console.log(">1 and flag1");
-            //new_width = new_width - (10*1.2)/100;
-            //new_width = new_width - 0.20;
 
             elm.css({
                 'transform': 'scale(' + new_width + ')',
