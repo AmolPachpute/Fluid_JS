@@ -1,6 +1,7 @@
 $(document).ready(function() {
     var initial_width = $(window).width();
     var initial_height = $(window).height();
+    
     // you need to specify the parent element/div which needs to be scaled. "mainContainer" in this case
     // change the name to which ever div you want to scale
     var elm = $("#mainContainer");
@@ -43,8 +44,7 @@ function _scale(elm, max_width, max_height, initial_width, initial_height) {
 
     if (width <= height || flag == 1) {
         if (new_width > 1) {
-            //alert(flag);
-
+            
             //console.log(">1 and flag1");
             //new_width = new_width - (10*1.2)/100;
             //new_width = new_width - 0.20;
